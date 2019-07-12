@@ -14,7 +14,7 @@ for(int i=0;i<n;i++)
 scanf("%d",&arr[i]);
 }
 
-printf("Enter the element to be searched");
+printf("Enter the element to be searched\n");
 scanf("%d",&x);
 	for(int i=0;i<n;i++)
 	{
