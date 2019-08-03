@@ -1,8 +1,8 @@
-#include<iostream>
-#define ROTATIONS 2
+#include<stdio.h>
+#include<stdlib.h>
+#define ROTATIONS 1
 #define M 4
 #define N 4
-using namespace std;
 void rotate(int row,int col,int arr[M][N],int n1,int m1){
 	int curr=0,prev=0;
 	if(row>M||col>N)
@@ -45,9 +45,9 @@ int main(void){
 		rotate(0,0,arr,n1,m1);
 	for(int i=0;i<M;i++){
 		for(int j=0;j<N;j++){
-			cout<<arr[i][j]<<" ";
+			printf("%d ",arr[i][j]);
 		}
-		cout<<"\n";
-	}s
+		printf("\n");
+	}
 	return 0;
 }
