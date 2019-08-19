@@ -21,7 +21,7 @@ main (int argc, const char *argv[])
 	continue;
       arr[j++] = atoi (argv[i]);
     }
-  /*int index;
+  int index;
   for (int i = 0; i < n; i++)
     {
       index = i;
@@ -31,17 +31,6 @@ main (int argc, const char *argv[])
 	    index = j;
 	}
       swap (&arr[index], &arr[i]);
-    }*/
-int index;
-  for (int i = 0; i < n; i++)
-    {
-      index = i;
-      for (int j = i + 1; j < n; j++)
-	{
-	  if (arr[j] < arr[index])
-	    swap(&arr[index],&arr[j]);
-	}
-      //swap (&arr[index], &arr[i]);
     }
   for (int i = 0; i < n; i++)
     {
